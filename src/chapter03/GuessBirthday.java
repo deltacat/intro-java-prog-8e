@@ -81,6 +81,9 @@ public class GuessBirthday {
     System.out.print("\nEnter 0 for No and 1 for Yes: ");
     answer = input.nextInt();
 
+    // close stream
+    input.close();
+
     if (answer == 1)
       day += 16;
 

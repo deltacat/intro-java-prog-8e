@@ -13,6 +13,7 @@ public class GuessNumberOneTime {
     // Prompt the user to guess the number
     System.out.print("\nEnter your guess: ");
     int guess = input.nextInt();
+    input.close();
       
     if (guess == number)
       System.out.println("Yes, the number is " + number);

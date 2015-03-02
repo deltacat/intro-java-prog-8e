@@ -8,6 +8,8 @@ public class LeapYear {
     Scanner input = new Scanner(System.in);
     System.out.print("Enter a year: ");
     int year = input.nextInt();
+    // close stream
+    input.close();
 
     // Check if the year is a leap year 
     boolean isLeapYear = 

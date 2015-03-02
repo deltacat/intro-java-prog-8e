@@ -20,6 +20,7 @@ public class TestDoWhile {
 
       sum += data;
     } while (data != 0);
+    input.close();
 
     System.out.println("The sum is " + sum);
   }

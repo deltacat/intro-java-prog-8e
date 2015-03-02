@@ -14,6 +14,9 @@ public class GreatestCommonDivisor {
     System.out.print("Enter second integer: ");
     int n2 = input.nextInt();
 
+    // close stream
+    input.close();
+
     int gcd = 1;
     int k = 2;
     while (k <= n1 && k <= n2) {

@@ -12,6 +12,9 @@ public class ComputeAverage {
     double number1 = input.nextDouble();
     double number2 = input.nextDouble();
     double number3 = input.nextDouble();
+    
+    // close stream
+    input.close();
 
     // Compute average
     double average = (number1 + number2 + number3) / 3;

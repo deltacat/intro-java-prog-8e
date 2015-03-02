@@ -10,6 +10,9 @@ public class ComputeAreaWithConsoleInput {
     // Prompt the user to enter a radius
     System.out.print("Enter a number for radius: ");
     double radius = input.nextDouble();
+    
+    // close stream
+    input.close();
 
     // Compute area
     double area = radius * radius * 3.14159;

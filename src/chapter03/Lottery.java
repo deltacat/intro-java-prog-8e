@@ -11,6 +11,8 @@ public class Lottery {
     Scanner input = new Scanner(System.in);
     System.out.print("Enter your lottery pick (two digits): ");
     int guess = input.nextInt();
+    // close stream
+    input.close();
 
     // Get digits from lottery
     int lotteryDigit1 = lottery / 10;

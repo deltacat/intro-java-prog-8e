@@ -11,6 +11,9 @@ public class ComputeChange {
     System.out.print(
       "Enter an amount in double, for example 11.56: ");
     double amount = input.nextDouble();
+    
+    // close stream
+    input.close();
 
     int remainingAmount = (int)(amount * 100);
 

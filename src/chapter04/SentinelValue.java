@@ -24,6 +24,7 @@ public class SentinelValue {
       data = input.nextInt();
     }
 
+    input.close();
     System.out.println("The sum is " + sum);
   }
 }

@@ -24,5 +24,8 @@ public class GuessNumberUsingBreak {
       else
         System.out.println("Your guess is too low");
     } // End of loop
+    
+    input.close();
+
   }
 }

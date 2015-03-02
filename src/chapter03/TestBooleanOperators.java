@@ -11,6 +11,9 @@ public class TestBooleanOperators {
     System.out.print("Enter an integer: ");
     int number = input.nextInt();
 
+    // close stream
+    input.close();
+
     System.out.println("Is " + number + " divisible by 2 and 3? " +
         ((number % 2 == 0) && (number % 3 == 0)));
    

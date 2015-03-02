@@ -23,6 +23,9 @@ public class ComputeLoan {
     System.out.print("Enter loan amount, for example 120000.95: ");
     double loanAmount = input.nextDouble();
     
+    // close stream
+    input.close();
+    
     // Calculate payment
     double monthlyPayment = loanAmount * monthlyInterestRate / (1
       - 1 / Math.pow(1 + monthlyInterestRate, numberOfYears * 12));

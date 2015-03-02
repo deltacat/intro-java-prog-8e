@@ -18,6 +18,9 @@ public class ComputeTax {
     System.out.print("Enter the taxable income: ");
     double income = input.nextDouble();
 
+    // close stream
+    input.close();
+
     // Compute tax
     double tax = 0;
 

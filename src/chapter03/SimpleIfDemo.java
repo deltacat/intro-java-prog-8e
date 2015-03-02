@@ -7,6 +7,8 @@ public class SimpleIfDemo {
     Scanner input = new Scanner(System.in);
     System.out.println("Enter an integer: ");
     int number = input.nextInt();
+    // close stream
+    input.close();
 
     if (number % 5 == 0)
       System.out.println("HiFive");

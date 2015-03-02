@@ -43,6 +43,7 @@ public class SubtractionQuizLoop {
       output += "\n" + number1 + "-" + number2 + "=" + answer + 
         ((number1 - number2 == answer) ? " correct" : " wrong");
     }
+    input.close();
 
     long endTime = System.currentTimeMillis();
     long testTime = endTime - startTime;

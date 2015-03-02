@@ -20,6 +20,8 @@ public class SubtractionQuiz {
       ("What is " + number1 + " - " + number2 + "? ");
     Scanner input = new Scanner(System.in);
     int answer = input.nextInt();
+    // close stream
+    input.close();
 
     // 4. Grade the answer and display the result
     if (number1 - number2 == answer)
