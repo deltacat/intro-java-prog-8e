@@ -13,6 +13,7 @@ public class GreatestCommonDivisor {
     int n1 = input.nextInt();
     System.out.print("Enter second integer: ");
     int n2 = input.nextInt();
+    input.close();
 
     int gcd = 1;
     int k = 2;
