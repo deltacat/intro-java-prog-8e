@@ -45,5 +45,5 @@ public class ComputeBMI {
 		else
 			System.out.println("Your are gravely overweight.");
 
-  }
+	}
 }

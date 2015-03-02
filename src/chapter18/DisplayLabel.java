@@ -3,24 +3,24 @@ package chapter18;
 import javax.swing.*;
 
 public class DisplayLabel extends JApplet {
-  public DisplayLabel() {
-    add(new JLabel("Great!", JLabel.CENTER));
-  }
-  
-  public static void main(String[] args) {
-    // Create a frame
-    JFrame frame = new JFrame("Applet is in the frame");
+	public DisplayLabel() {
+		add(new JLabel("Great!", JLabel.CENTER));
+	}
 
-    // Create an instance of the applet
-    DisplayLabel applet = new DisplayLabel();
+	public static void main(String[] args) {
+		// Create a frame
+		JFrame frame = new JFrame("Applet is in the frame");
 
-    // Add the applet to the frame
-    frame.add(applet);
+		// Create an instance of the applet
+		DisplayLabel applet = new DisplayLabel();
 
-    // Display the frame
-    frame.setSize(300, 100);
-    frame.setLocationRelativeTo(null); // Center the frame   
-    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    frame.setVisible(true);
-  }
+		// Add the applet to the frame
+		frame.add(applet);
+
+		// Display the frame
+		frame.setSize(300, 100);
+		frame.setLocationRelativeTo(null); // Center the frame
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+	}
 }
