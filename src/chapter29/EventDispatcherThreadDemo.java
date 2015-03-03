@@ -3,6 +3,11 @@ package chapter29;
 import javax.swing.*;
 
 public class EventDispatcherThreadDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public EventDispatcherThreadDemo() {
 		add(new JLabel("Hi, it runs from an event dispatcher thread"));
 	}

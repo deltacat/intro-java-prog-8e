@@ -6,6 +6,10 @@ import java.awt.event.*;
 import java.beans.*;
 
 public class ProgressBarDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JProgressBar jpb = new JProgressBar();
 	private JTextArea jtaResult = new JTextArea();
 	private JTextField jtfPrimeCount = new JTextField(8);

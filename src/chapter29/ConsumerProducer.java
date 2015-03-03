@@ -90,8 +90,8 @@ public class ConsumerProducer {
 				ex.printStackTrace();
 			} finally {
 				lock.unlock(); // Release the lock
-				return value;
 			}
+			return value;
 		}
 	}
 }

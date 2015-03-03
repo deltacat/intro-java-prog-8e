@@ -3,7 +3,12 @@ package chapter29;
 import javax.swing.*;
 
 public class FlashingText extends JApplet implements Runnable {
-	private JLabel jlblText = new JLabel("Welcome", JLabel.CENTER);
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	String welcome = "Welcome!";
+	private JLabel jlblText = new JLabel(welcome, JLabel.CENTER);
 
 	public FlashingText() {
 		add(jlblText);
@@ -11,11 +16,12 @@ public class FlashingText extends JApplet implements Runnable {
 	}
 
 	/** Set the text on/off every 200 milliseconds */
+	@Override
 	public void run() {
 		try {
 			while (true) {
 				if (jlblText.getText() == null)
-					jlblText.setText("Welcome");
+					jlblText.setText(welcome);
 				else
 					jlblText.setText(null);
 
@@ -28,6 +34,7 @@ public class FlashingText extends JApplet implements Runnable {
 	/** Main method */
 	public static void main(String[] args) {
 		SwingUtilities.invokeLater(new Runnable() {
+			@Override
 			public void run() {
 				JFrame frame = new JFrame("FlashingText");
 				frame.add(new FlashingText());

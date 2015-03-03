@@ -1,20 +1,28 @@
 package chapter29;
 
 import java.applet.*;
+
 import javax.swing.*;
+
+import resources.MyResources;
+
 import java.awt.event.*;
 import java.awt.*;
+
 import chapter15.StillClock;
 
 public class ClockWithAudioOnSeparateThread extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	protected AudioClip[] hourAudio = new AudioClip[12];
 	protected AudioClip[] minuteAudio = new AudioClip[60];
+	private MyResources myResources = new MyResources();
 
 	// Create audio clips for pronouncing am and pm
-	protected AudioClip amAudio = Applet.newAudioClip(this.getClass()
-			.getResource("/audio/am.au"));
-	protected AudioClip pmAudio = Applet.newAudioClip(this.getClass()
-			.getResource("/audio/pm.au"));
+	protected AudioClip amAudio = myResources.getAudioClip("am.au");
+	protected AudioClip pmAudio = myResources.getAudioClip("pm.au");
 
 	// Create a clock
 	private StillClock clock = new StillClock();
@@ -29,13 +37,11 @@ public class ClockWithAudioOnSeparateThread extends JApplet {
 	public void init() {
 		// Create audio clips for pronouncing hours
 		for (int i = 0; i < 12; i++)
-			hourAudio[i] = Applet.newAudioClip(this.getClass().getResource(
-					"/audio/hour" + i + ".au"));
+			hourAudio[i] = myResources.getAudioClip("hour" + i + ".au");
 
 		// Create audio clips for pronouncing minutes
 		for (int i = 0; i < 60; i++)
-			minuteAudio[i] = Applet.newAudioClip(this.getClass().getResource(
-					"/audio/minute" + i + ".au"));
+			minuteAudio[i] = myResources.getAudioClip("minute" + i + ".au");
 
 		// Add clock and time label to the content pane of the applet
 		add(clock, BorderLayout.CENTER);
