@@ -11,6 +11,8 @@ public class CountEachLetter {
 		// Prompt the user to enter a string
 		System.out.print("Enter a string: ");
 		String s = input.nextLine();
+		
+		input.close();
 
 		// Invoke the countLetters method to count each letter
 		int[] counts = countLetters(s.toLowerCase());

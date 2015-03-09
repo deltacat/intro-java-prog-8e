@@ -24,6 +24,8 @@ public class UseGuessDateClass {
 			if (answer == 1)
 				date += GuessDate.getValue(i, 0, 0);
 		}
+		
+		input.close();
 
 		System.out.println("Your birth date is " + date);
 	}
