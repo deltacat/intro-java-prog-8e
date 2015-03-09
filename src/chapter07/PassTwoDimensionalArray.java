@@ -14,6 +14,8 @@ public class PassTwoDimensionalArray {
 		for (int i = 0; i < m.length; i++)
 			for (int j = 0; j < m[i].length; j++)
 				m[i][j] = input.nextInt();
+		
+		input.close();
 
 		// Display result
 		System.out.println("\nSum of all elements is " + sum(m));

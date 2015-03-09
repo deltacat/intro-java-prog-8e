@@ -18,6 +18,8 @@ public class Weather {
 			data[day - 1][hour - 1][0] = temperature;
 			data[day - 1][hour - 1][1] = humidity;
 		}
+		
+		input.close();
 
 		// Find the average daily temperature and humidity
 		for (int i = 0; i < NUMBER_OF_DAYS; i++) {

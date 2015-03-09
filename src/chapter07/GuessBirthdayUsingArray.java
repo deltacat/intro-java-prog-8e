@@ -37,6 +37,8 @@ public class GuessBirthdayUsingArray {
 				day += dates[i][0][0];
 		}
 
+		input.close();
+		
 		System.out.println("Your birth day is " + day);
 	}
 }

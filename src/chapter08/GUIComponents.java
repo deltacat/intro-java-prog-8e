@@ -29,7 +29,7 @@ public class GUIComponents {
 		JRadioButton jrbYellow = new JRadioButton("Yellow");
 
 		// Create a combo box with several choices
-		JComboBox jcboColor = new JComboBox(new String[] { "Freshman",
+		JComboBox<String> jcboColor = new JComboBox<String>(new String[] { "Freshman",
 				"Sophomore", "Junior", "Senior" });
 
 		// Create a panel to group components

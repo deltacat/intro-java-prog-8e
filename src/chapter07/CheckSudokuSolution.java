@@ -22,6 +22,8 @@ public class CheckSudokuSolution {
 			for (int j = 0; j < 9; j++)
 				grid[i][j] = input.nextInt();
 
+		input.close();
+		
 		return grid;
 	}
 

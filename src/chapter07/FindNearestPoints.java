@@ -15,7 +15,8 @@ public class FindNearestPoints {
 			points[i][0] = input.nextDouble();
 			points[i][1] = input.nextDouble();
 		}
-
+		input.close();
+		
 		// p1 and p2 are the indices in the points array
 		int p1 = 0, p2 = 1; // Initial two points
 		double shortestDistance = distance(points[p1][0], points[p1][1],

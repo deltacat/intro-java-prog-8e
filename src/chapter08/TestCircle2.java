@@ -15,7 +15,7 @@ public class TestCircle2 {
 		System.out
 				.println("c1: radius (" + c1.radius
 						+ ") and number of Circle objects ("
-						+ c1.numberOfObjects + ")");
+						+ Circle2.numberOfObjects + ")");
 
 		// Create c2
 		Circle2 c2 = new Circle2(5);
@@ -28,10 +28,10 @@ public class TestCircle2 {
 		System.out
 				.println("c1: radius (" + c1.radius
 						+ ") and number of Circle objects ("
-						+ c1.numberOfObjects + ")");
+						+ Circle2.numberOfObjects + ")");
 		System.out
 				.println("c2: radius (" + c2.radius
 						+ ") and number of Circle objects ("
-						+ c2.numberOfObjects + ")");
+						+ Circle2.numberOfObjects + ")");
 	}
 }
