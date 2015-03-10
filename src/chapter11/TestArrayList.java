@@ -3,7 +3,7 @@ package chapter11;
 public class TestArrayList {
 	public static void main(String[] args) {
 		// Create a list to store cities
-		java.util.ArrayList cityList = new java.util.ArrayList();
+		java.util.ArrayList<String> cityList = new java.util.ArrayList<String>();
 
 		// Add some cities in the list
 		cityList.add("London");
@@ -48,7 +48,7 @@ public class TestArrayList {
 		System.out.println();
 
 		// Create a list to store two circles
-		java.util.ArrayList list = new java.util.ArrayList();
+		java.util.ArrayList<Circle4> list = new java.util.ArrayList<Circle4>();
 
 		// Add two circles
 		list.add(new Circle4(2));
@@ -56,6 +56,6 @@ public class TestArrayList {
 
 		// Display the area of the first circle in the list
 		System.out.println("The area of the circle? "
-				+ ((Circle4) list.get(0)).getArea());
+				+ list.get(0).getArea());
 	}
 }

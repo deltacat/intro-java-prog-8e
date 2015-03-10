@@ -1,9 +1,10 @@
 package chapter11;
 
 public class DynamicBindingDemo {
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Object o = new GraduateStudent(); // implicit casting
-
+		
 		Object o1 = new Object();
 
 		if (o1 instanceof GraduateStudent) {

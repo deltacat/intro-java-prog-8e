@@ -4,6 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 
 public class TestImageIcon extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private ImageIcon usIcon = new ImageIcon("image/us.gif");
 	private ImageIcon myIcon = new ImageIcon("image/my.jpg");
 	private ImageIcon frIcon = new ImageIcon("image/fr.gif");

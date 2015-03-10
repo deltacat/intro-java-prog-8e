@@ -4,6 +4,11 @@ import java.awt.*;
 import javax.swing.*;
 
 public class TestPanels extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public TestPanels() {
 		// Create panel p1 for the buttons and set GridLayout
 		JPanel p1 = new JPanel();

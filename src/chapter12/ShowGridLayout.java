@@ -6,6 +6,11 @@ import javax.swing.JFrame;
 import java.awt.GridLayout;
 
 public class ShowGridLayout extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public ShowGridLayout() {
 		// Set GridLayout, 3 rows, 2 columns, and gaps 5 between
 		// components horizontally and vertically
@@ -16,6 +21,8 @@ public class ShowGridLayout extends JFrame {
 		add(new JTextField(8));
 		add(new JLabel("MI"));
 		add(new JTextField(1));
+		add(new JLabel("Last Name"));
+		add(new JTextField(8));
 		add(new JLabel("Last Name"));
 		add(new JTextField(8));
 	}

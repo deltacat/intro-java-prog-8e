@@ -13,7 +13,7 @@ public class GeometricObject1 {
 	/**
 	 * Construct a geometric object with the specified color and filled value
 	 */
-	public GeometricObject1(String Color, boolean filled) {
+	public GeometricObject1(String color, boolean filled) {
 		dateCreated = new java.util.Date();
 		this.color = color;
 		this.filled = filled;

@@ -1,7 +1,7 @@
 package chapter11;
 
 public class MyStack {
-	private java.util.ArrayList list = new java.util.ArrayList();
+	private java.util.ArrayList<Object> list = new java.util.ArrayList<Object>();
 
 	public boolean isEmpty() {
 		return list.isEmpty();

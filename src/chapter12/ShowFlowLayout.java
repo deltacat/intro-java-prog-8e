@@ -3,9 +3,15 @@ package chapter12;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 import javax.swing.JFrame;
+
 import java.awt.FlowLayout;
 
 public class ShowFlowLayout extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public ShowFlowLayout() {
 		// Set FlowLayout, aligned left with horizontal gap 10
 		// and vertical gap 20 between components

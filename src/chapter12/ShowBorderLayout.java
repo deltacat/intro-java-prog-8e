@@ -5,6 +5,11 @@ import javax.swing.JFrame;
 import java.awt.BorderLayout;
 
 public class ShowBorderLayout extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public ShowBorderLayout() {
 		// Set BorderLayout with horizontal gap 5 and vertical gap 10
 		setLayout(new BorderLayout(5, 10));

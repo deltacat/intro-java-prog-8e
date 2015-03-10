@@ -5,6 +5,11 @@ import javax.swing.*;
 import javax.swing.border.*;
 
 public class TestSwingCommonFeatures extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public TestSwingCommonFeatures() {
 		// Create a panel to group three buttons
 		JPanel p1 = new JPanel(new FlowLayout(FlowLayout.LEFT, 2, 2));
