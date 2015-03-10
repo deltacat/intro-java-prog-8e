@@ -1,6 +1,10 @@
 package chapter30;
 
 public class StudentAddress implements java.io.Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String name;
 	private String street;
 	private String city;

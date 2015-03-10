@@ -4,6 +4,10 @@ import javax.swing.*;
 import java.awt.event.*;
 
 public class FrameAsListenerDemo extends JFrame implements ActionListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Create four buttons
 	private JButton jbtNew = new JButton("New");
 	private JButton jbtOpen = new JButton("Open");

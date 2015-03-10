@@ -4,6 +4,11 @@ import javax.swing.*;
 import java.awt.event.*;
 
 public class HandleEvent extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public HandleEvent() {
 		// Create two buttons
 		JButton jbtOK = new JButton("OK");

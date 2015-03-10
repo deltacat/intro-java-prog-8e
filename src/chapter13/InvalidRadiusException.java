@@ -1,6 +1,10 @@
 package chapter13;
 
 public class InvalidRadiusException extends Exception {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private double radius;
 
 	/** Construct an exception */

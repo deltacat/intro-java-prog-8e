@@ -4,6 +4,10 @@ import java.awt.*;
 import javax.swing.*;
 
 public class ShowNoLayout extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JButton jbtRed = new JButton("Red");
 	private JButton jbtBlue = new JButton("Blue");
 	private JButton jbtGreen = new JButton("Green");

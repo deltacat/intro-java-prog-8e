@@ -5,6 +5,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class RadioButtonDemo extends CheckBoxDemo {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Declare radio buttons
 	private JRadioButton jrbRed, jrbGreen, jrbBlue;
 

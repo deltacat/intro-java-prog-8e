@@ -5,6 +5,10 @@ import javax.swing.*;
 import java.util.*;
 
 public class StillClock extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int hour;
 	private int minute;
 	private int second;

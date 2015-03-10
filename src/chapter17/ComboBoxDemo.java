@@ -5,6 +5,11 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class ComboBoxDemo extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Declare an array of Strings for flag titles
 	private String[] flagTitles = { "Canada", "China", "Denmark", "France",
 			"Germany", "India", "Norway", "United Kingdom",

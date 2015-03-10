@@ -7,6 +7,11 @@ import java.net.*;
 import javax.swing.*;
 
 public class ViewRemoteFile extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Button to view the file
 	private JButton jbtView = new JButton("View");
 

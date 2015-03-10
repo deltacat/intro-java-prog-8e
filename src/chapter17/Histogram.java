@@ -4,6 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Histogram extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Count the occurrence of 26 letters
 	private int[] count;
 

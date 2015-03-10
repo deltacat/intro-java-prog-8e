@@ -5,6 +5,11 @@ import javax.swing.*;
 import java.util.*;
 
 public class TableCellRendererEditorDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Create table column names
 	private String[] columnNames = { "Title", "Copies Needed", "Publisher",
 			"Date Published", "In-stock", "Book Photo" };

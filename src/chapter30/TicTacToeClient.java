@@ -9,6 +9,11 @@ import java.net.*;
 
 public class TicTacToeClient extends JApplet implements Runnable,
 		TicTacToeConstants {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Indicate whether the player has the turn
 	private boolean myTurn = false;
 
@@ -200,6 +205,10 @@ public class TicTacToeClient extends JApplet implements Runnable,
 
 	// An inner class for a cell
 	public class Cell extends JPanel {
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
 		// Indicate the row and column of this cell in the board
 		private int row;
 		private int column;

@@ -5,6 +5,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class ActionInterfaceDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPanel buttonPanel = new JPanel();
 	private FlowLayout flowLayout = new FlowLayout();
 
@@ -64,6 +68,10 @@ public class ActionInterfaceDemo extends JApplet {
 	}
 
 	private class MyAction extends AbstractAction {
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
 		String name;
 
 		MyAction(String name, Icon icon) {

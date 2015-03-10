@@ -8,6 +8,11 @@ import javax.swing.event.*;
 import java.io.*;
 
 public class WebBrowser extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// JEditor pane to view HTML files
 	private JEditorPane jep = new JEditorPane();
 

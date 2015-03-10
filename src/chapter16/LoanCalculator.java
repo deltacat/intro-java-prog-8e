@@ -7,6 +7,10 @@ import javax.swing.border.TitledBorder;
 import chapter10.Loan;
 
 public class LoanCalculator extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Create text fields for interest rate,
 	// year, loan amount, monthly payment, and total payment
 	private JTextField jtfAnnualInterestRate = new JTextField();

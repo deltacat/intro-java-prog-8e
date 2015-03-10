@@ -4,6 +4,11 @@ import java.awt.event.*;
 import javax.swing.JFrame;
 
 public class TestWindowEvent extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public static void main(String[] args) {
 		TestWindowEvent frame = new TestWindowEvent();
 		frame.setLocationRelativeTo(null); // Center the frame

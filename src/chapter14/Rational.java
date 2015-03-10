@@ -1,6 +1,10 @@
 package chapter14;
 
 public class Rational extends Number implements Comparable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Data fields for numerator and denominator
 	private long numerator = 0;
 	private long denominator = 1;

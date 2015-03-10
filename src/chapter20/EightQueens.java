@@ -4,6 +4,10 @@ import java.awt.*;
 import javax.swing.*;
 
 public class EightQueens extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	public static final int SIZE = 8; // The size of the chess board
 	private int[] queens = new int[SIZE]; // The queen positions
 
@@ -38,6 +42,10 @@ public class EightQueens extends JApplet {
 	}
 
 	class ChessBoard extends JPanel {
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
 		private java.net.URL url = getClass().getResource("image/queen.jpg");
 		private Image queenImage = new ImageIcon(url).getImage();
 

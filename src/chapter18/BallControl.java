@@ -5,6 +5,10 @@ import java.awt.event.*;
 import java.awt.*;
 
 public class BallControl extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Ball ball = new Ball();
 	private JButton jbtSuspend = new JButton("Suspend");
 	private JButton jbtResume = new JButton("Resume");

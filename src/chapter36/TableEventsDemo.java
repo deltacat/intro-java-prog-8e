@@ -8,6 +8,11 @@ import javax.swing.table.*;
 import java.util.*;
 
 public class TableEventsDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Create table column names
 	private String[] columnNames = { "Title", "Copies Needed", "Publisher",
 			"Date Published", "In-stock", "Book Photo" };

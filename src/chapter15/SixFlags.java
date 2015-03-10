@@ -4,6 +4,11 @@ import javax.swing.*;
 import java.awt.*;
 
 public class SixFlags extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public SixFlags() {
 		Image image1 = new ImageIcon("image/us.gif").getImage();
 		Image image2 = new ImageIcon("image/ca.gif").getImage();

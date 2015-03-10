@@ -6,6 +6,10 @@ import javax.swing.*;
 import java.applet.*;
 
 public class ImageAudioAnimation extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private final static int NUMBER_OF_NATIONS = 7;
 	private int current = 0;
 	private ImageIcon[] icons = new ImageIcon[NUMBER_OF_NATIONS];

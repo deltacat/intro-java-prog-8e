@@ -7,6 +7,10 @@ import java.awt.*;
 import javax.swing.*;
 
 public class MultiThreadServer extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Text area for displaying contents
 	private JTextArea jta = new JTextArea();
 

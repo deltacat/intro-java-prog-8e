@@ -7,6 +7,11 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class Client extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Text field for receiving radius
 	private JTextField jtf = new JTextField();
 

@@ -6,6 +6,11 @@ import javax.swing.tree.*;
 import java.util.*;
 
 public class TreeNodeDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public TreeNodeDemo() {
 		// Create the first tree
 		DefaultMutableTreeNode root, europe, northAmerica, us;

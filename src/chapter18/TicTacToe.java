@@ -6,6 +6,11 @@ import javax.swing.*;
 import javax.swing.border.LineBorder;
 
 public class TicTacToe extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Indicate which player has a turn, initially it is the X player
 	private char whoseTurn = 'X';
 
@@ -75,6 +80,10 @@ public class TicTacToe extends JApplet {
 
 	// An inner class for a cell
 	public class Cell extends JPanel {
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
 		// Token used for this cell
 		private char token = ' ';
 

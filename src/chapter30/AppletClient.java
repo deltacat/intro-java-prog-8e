@@ -5,6 +5,11 @@ import java.net.*;
 import javax.swing.*;
 
 public class AppletClient extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Label for displaying the visit count
 	private JLabel jlblCount = new JLabel();
 

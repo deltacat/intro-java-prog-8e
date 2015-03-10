@@ -4,6 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 
 public class ControlCircle1 extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JButton jbtEnlarge = new JButton("Enlarge");
 	private JButton jbtShrink = new JButton("Shrink");
 	private CirclePanel canvas = new CirclePanel();
@@ -29,6 +33,10 @@ public class ControlCircle1 extends JFrame {
 }
 
 class CirclePanel extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int radius = 5; // Default circle radius
 
 	/** Repaint the circle */

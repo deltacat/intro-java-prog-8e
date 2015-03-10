@@ -7,6 +7,10 @@ import chapter15.FigurePanel;
 ;
 
 public class DisplayFigure extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JTabbedPane jtpFigures = new JTabbedPane();
 	private FigurePanel squarePanel = new FigurePanel();
 	private FigurePanel rectanglePanel = new FigurePanel();

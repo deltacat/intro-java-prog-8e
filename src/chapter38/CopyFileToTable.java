@@ -9,6 +9,10 @@ import java.sql.*;
 import java.util.*;
 
 public class CopyFileToTable extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Text file info
 	private JTextField jtfFilename = new JTextField();
 	private JTextArea jtaFile = new JTextArea();

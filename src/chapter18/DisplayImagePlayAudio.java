@@ -5,6 +5,10 @@ import java.net.URL;
 import java.applet.*;
 
 public class DisplayImagePlayAudio extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private AudioClip audioClip;
 
 	public DisplayImagePlayAudio() {

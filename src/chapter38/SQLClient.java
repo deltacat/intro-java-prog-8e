@@ -8,6 +8,11 @@ import java.sql.*;
 import java.util.*;
 
 public class SQLClient extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Connection to the database
 	private Connection connection;
 

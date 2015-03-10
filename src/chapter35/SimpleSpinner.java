@@ -5,6 +5,11 @@ import javax.swing.event.*;
 import java.awt.BorderLayout;
 
 public class SimpleSpinner extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Create a JSpinner
 	private JSpinner spinner = new JSpinner();
 

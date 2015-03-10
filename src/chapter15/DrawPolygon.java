@@ -6,6 +6,11 @@ import java.awt.Graphics;
 import java.awt.Polygon;
 
 public class DrawPolygon extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public DrawPolygon() {
 		setTitle("DrawPolygon");
 		add(new PolygonsPanel());
@@ -23,6 +28,11 @@ public class DrawPolygon extends JFrame {
 
 // Draw a polygon in the panel
 class PolygonsPanel extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g);
 

@@ -7,6 +7,11 @@ import java.util.*;
 import java.text.*;
 
 public class CalendarPanel extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// The header label
 	private JLabel jlblHeader = new JLabel(" ", JLabel.CENTER);
 

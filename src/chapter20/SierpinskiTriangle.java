@@ -5,6 +5,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class SierpinskiTriangle extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JTextField jtfOrder = new JTextField("0", 5); // Order
 	private SierpinskiTrianglePanel trianglePanel = new SierpinskiTrianglePanel(); // To
 																					// display
@@ -31,6 +35,10 @@ public class SierpinskiTriangle extends JApplet {
 	}
 
 	static class SierpinskiTrianglePanel extends JPanel {
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
 		private int order = 0;
 
 		/** Set a new order */

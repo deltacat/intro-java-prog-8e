@@ -7,6 +7,11 @@ import javax.swing.event.*;
 import java.util.*;
 
 public class SimpleTreeDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Create a default tree
 	private JTree jTree1 = new JTree();
 

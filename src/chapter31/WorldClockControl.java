@@ -6,6 +6,10 @@ import java.awt.event.*;
 import java.util.*;
 
 public class WorldClockControl extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Obtain all available locales and time zone ids
 	private Locale[] availableLocales = Locale.getAvailableLocales();
 	private String[] availableTimeZones = TimeZone.getAvailableIDs();

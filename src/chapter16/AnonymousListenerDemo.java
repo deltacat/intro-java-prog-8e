@@ -4,6 +4,11 @@ import javax.swing.*;
 import java.awt.event.*;
 
 public class AnonymousListenerDemo extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public AnonymousListenerDemo() {
 		// Create four buttons
 		JButton jbtNew = new JButton("New");

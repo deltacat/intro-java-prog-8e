@@ -4,6 +4,11 @@ import javax.swing.*;
 import java.awt.Graphics;
 
 public class TestPaintComponent extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public TestPaintComponent() {
 		add(new NewPanel());
 	}
@@ -19,6 +24,11 @@ public class TestPaintComponent extends JFrame {
 }
 
 class NewPanel extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		g.drawLine(0, 0, 50, 50);

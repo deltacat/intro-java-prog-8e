@@ -6,6 +6,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class KnightTourApp extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private KnightTourModel model = new KnightTourModel();
 	private PaintKnightTour paintKnightTour = new PaintKnightTour();
 	private JTextField jtfRow = new JTextField(2);
@@ -33,6 +37,10 @@ public class KnightTourApp extends JApplet {
 
 	/** A panel to paint the chessboard and the knight tour */
 	private static class PaintKnightTour extends JPanel {
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
 		private List<Integer> path; // A Knight tour path
 
 		public PaintKnightTour() {

@@ -8,6 +8,10 @@ import javax.swing.*;
 import javax.swing.border.*;
 
 public class StudentClient extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JTextField jtfName = new JTextField(32);
 	private JTextField jtfStreet = new JTextField(32);
 	private JTextField jtfCity = new JTextField(20);

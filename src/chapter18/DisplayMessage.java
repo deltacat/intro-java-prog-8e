@@ -4,6 +4,11 @@ import javax.swing.*;
 import chapter15.MessagePanel;
 
 public class DisplayMessage extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	/** Initialize the applet */
 	public void init() {
 		// Get parameter values from the HTML file

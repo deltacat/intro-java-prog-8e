@@ -5,6 +5,11 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class MenuDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Text fields for Number 1, Number 2, and Result
 	private JTextField jtfNum1, jtfNum2, jtfResult;
 

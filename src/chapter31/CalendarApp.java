@@ -7,6 +7,11 @@ import javax.swing.border.*;
 import java.util.*;
 
 public class CalendarApp extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Create a CalendarPanel for showing calendars
 	private CalendarPanel calendarPanel = new CalendarPanel();
 

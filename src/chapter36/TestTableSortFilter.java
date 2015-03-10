@@ -5,6 +5,11 @@ import javax.swing.table.*;
 import java.awt.BorderLayout;
 
 public class TestTableSortFilter extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Create table column names
 	private String[] columnNames = { "Country", "Capital",
 			"Population in Millions", "Democracy" };

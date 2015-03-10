@@ -5,6 +5,11 @@ import javax.swing.*;
 import javax.swing.event.*;
 
 public class ListDemo extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	final int NUMBER_OF_FLAGS = 9;
 
 	// Declare an array of Strings for flag titles

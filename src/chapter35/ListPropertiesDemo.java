@@ -6,6 +6,10 @@ import javax.swing.*;
 import javax.swing.event.*;
 
 public class ListPropertiesDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JList jlst = new JList(new String[] { "Item1", "Item2", "Item3",
 			"Item4", "Item5", "Item6" });
 	private JSpinner jspVisibleRowCount = new JSpinner(new SpinnerNumberModel(

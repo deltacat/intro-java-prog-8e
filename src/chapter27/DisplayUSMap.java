@@ -3,6 +3,11 @@ package chapter27;
 import javax.swing.*;
 
 public class DisplayUSMap extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	private City[] vertices = { new City("Seattle", 75, 50),
 			new City("San Francisco", 50, 210),
 			new City("Los Angeles", 75, 275), new City("Denver", 275, 175),

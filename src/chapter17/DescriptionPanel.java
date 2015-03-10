@@ -4,6 +4,11 @@ import javax.swing.*;
 import java.awt.*;
 
 public class DescriptionPanel extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	/** Label for displaying an image icon and a text */
 	private JLabel jlblImageTitle = new JLabel();
 

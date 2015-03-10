@@ -5,6 +5,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class MultipleWindowsDemo extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JTextArea jta;
 	private JButton jbtShowHistogram = new JButton("Show Histogram");
 	private Histogram histogram = new Histogram();

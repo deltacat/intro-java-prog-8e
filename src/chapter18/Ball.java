@@ -6,6 +6,11 @@ import javax.swing.*;
 import java.awt.event.*;
 
 public class Ball extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	private int delay = 10;
 
 	// Create a timer with delay 1000 ms

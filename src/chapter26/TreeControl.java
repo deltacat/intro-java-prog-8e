@@ -5,6 +5,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class TreeControl extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private BinaryTree<Integer> tree; // A binary tree to be displayed
 	private JTextField jtfKey = new JTextField(5);
 	private PaintTree paintTree = new PaintTree();
@@ -59,6 +63,10 @@ public class TreeControl extends JPanel {
 
 	// Inner class PaintTree for displaying a tree on a panel
 	class PaintTree extends JPanel {
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
 		private int radius = 20; // Tree node radius
 		private int vGap = 50; // Gap between two levels in a tree
 

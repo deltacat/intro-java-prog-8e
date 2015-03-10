@@ -3,6 +3,11 @@ package chapter18;
 import javax.swing.*;
 
 public class DisplayLabel extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public DisplayLabel() {
 		add(new JLabel("Great!", JLabel.CENTER));
 	}

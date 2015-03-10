@@ -5,6 +5,11 @@ import javax.swing.JPanel;
 import java.awt.Graphics;
 
 public class DrawArcs extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public DrawArcs() {
 		setTitle("DrawArcs");
 		add(new ArcsPanel());
@@ -22,6 +27,11 @@ public class DrawArcs extends JFrame {
 
 // The class for drawing arcs on a panel
 class ArcsPanel extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Draw four blazes of a fan
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g);

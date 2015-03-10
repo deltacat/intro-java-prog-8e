@@ -5,6 +5,10 @@ import javax.swing.event.*;
 import java.awt.*;
 
 public class ListCellRendererDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private final static int NUMBER_OF_NATIONS = 7;
 	private String[] nations = new String[] { "Denmark", "Germany", "China",
 			"India", "Norway", "UK", "US" };

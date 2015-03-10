@@ -5,6 +5,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class ShowBoxLayout extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Create two box containers
 	private Box box1 = Box.createHorizontalBox();
 	private Box box2 = Box.createVerticalBox();

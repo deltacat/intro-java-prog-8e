@@ -5,6 +5,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class ShowCardLayout extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private CardLayout cardLayout = new CardLayout(20, 10);
 	private JPanel cardPanel = new JPanel(cardLayout);
 	private JButton jbtFirst, jbtNext, jbtPrevious, jbtLast;

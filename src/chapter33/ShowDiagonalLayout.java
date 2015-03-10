@@ -6,6 +6,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class ShowDiagonalLayout extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private FlowLayout flowLayout = new FlowLayout();
 	private GridLayout gridLayout = new GridLayout(2, 2);
 	private DiagonalLayout diagonalLayout = new DiagonalLayout();

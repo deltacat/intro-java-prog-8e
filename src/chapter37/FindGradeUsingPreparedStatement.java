@@ -6,6 +6,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class FindGradeUsingPreparedStatement extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JTextField jtfSSN = new JTextField(9);
 	private JTextField jtfCourseId = new JTextField(5);
 	private JButton jbtShowGrade = new JButton("Show Grade");

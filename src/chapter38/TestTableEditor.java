@@ -7,6 +7,10 @@ import javax.sql.RowSet;
 import com.sun.rowset.*;
 
 public class TestTableEditor extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JComboBox jcboDriver = new JComboBox(new String[] {
 			"sun.jdbc.odbc.JdbcOdbcDriver", "com.mysql.jdbc.Driver",
 			"oracle.jdbc.driver.OracleDriver" });

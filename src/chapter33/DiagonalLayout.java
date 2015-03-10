@@ -3,6 +3,11 @@ package chapter33;
 import java.awt.*;
 
 public class DiagonalLayout implements LayoutManager, java.io.Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	/** Vertical gap between the components */
 	private int gap = 10;
 

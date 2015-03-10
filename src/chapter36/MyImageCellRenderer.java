@@ -6,6 +6,11 @@ import java.awt.*;
 import chapter15.ImageViewer;
 
 public class MyImageCellRenderer extends DefaultTableCellRenderer {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	/** Override this method in DefaultTableCellRenderer */
 	public Component getTableCellRendererComponent(JTable table, Object value,
 			boolean isSelected, boolean isFocused, int row, int column) {

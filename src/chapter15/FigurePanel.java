@@ -4,6 +4,10 @@ import java.awt.*;
 import javax.swing.JPanel;
 
 public class FigurePanel extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Define constants
 	public static final int LINE = 1;
 	public static final int RECTANGLE = 2;

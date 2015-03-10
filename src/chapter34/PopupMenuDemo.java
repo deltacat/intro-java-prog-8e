@@ -5,6 +5,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class PopupMenuDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JPopupMenu jPopupMenu1 = new JPopupMenu();
 	private JMenuItem jmiNew = new JMenuItem("New", new ImageIcon(getClass()
 			.getResource("image/new.gif")));

@@ -5,6 +5,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class ShowLayout extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Get the url for HTML files
 	private String flowLayoutDesc = "FlowLayout arranges components "
 			+ "according to their preferredSize in "

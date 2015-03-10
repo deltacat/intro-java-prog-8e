@@ -4,6 +4,11 @@ import javax.swing.*;
 import java.awt.*;
 
 public class TestCenterMessage extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public TestCenterMessage() {
 		CenterMessage messagePanel = new CenterMessage();
 		add(messagePanel);
@@ -22,6 +27,11 @@ public class TestCenterMessage extends JFrame {
 }
 
 class CenterMessage extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	/** Paint the message */
 	protected void paintComponent(Graphics g) {
 		super.paintComponent(g);

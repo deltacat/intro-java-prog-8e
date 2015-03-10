@@ -5,6 +5,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class CheckBoxDemo extends ButtonDemo {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Create three check boxes to control the display of message
 	private JCheckBox jchkCentered = new JCheckBox("Centered");
 	private JCheckBox jchkBold = new JCheckBox("Bold");

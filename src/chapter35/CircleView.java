@@ -4,6 +4,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class CircleView extends javax.swing.JPanel implements ActionListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private CircleModel model;
 
 	public void actionPerformed(ActionEvent actionEvent) {

@@ -6,6 +6,10 @@ import javax.swing.table.AbstractTableModel;
 
 public class RowSetTableModel extends AbstractTableModel implements
 		RowSetListener {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// RowSet for the result set
 	private RowSet rowSet;
 

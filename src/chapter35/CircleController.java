@@ -5,6 +5,10 @@ import java.awt.*;
 import javax.swing.*;
 
 public class CircleController extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private CircleModel model;
 	private JTextField jtfRadius = new JTextField();
 	private JComboBox jcboFilled = new JComboBox(new Boolean[] {

@@ -4,6 +4,11 @@ import java.awt.*;
 import javax.swing.*;
 
 public class DisplayImage extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public DisplayImage() {
 		add(new ImagePanel());
 	}
@@ -19,6 +24,10 @@ public class DisplayImage extends JFrame {
 }
 
 class ImagePanel extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private ImageIcon imageIcon = new ImageIcon("image/us.gif");
 	private Image image = imageIcon.getImage();
 

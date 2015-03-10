@@ -6,6 +6,10 @@ import javax.swing.*;
 import javax.swing.border.*;
 
 public class ScrollMap extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Create images in labels
 	private JLabel lblIndianaMap = new JLabel(new ImageIcon(getClass()
 			.getResource("image/indianaMap.gif")));
@@ -81,6 +85,10 @@ public class ScrollMap extends JApplet {
 
 // A panel displaying a line used for scroll pane corner
 class CornerPanel extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Line location
 	private String location;
 

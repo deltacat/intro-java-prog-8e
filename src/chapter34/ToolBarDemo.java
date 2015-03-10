@@ -4,6 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 
 public class ToolBarDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JButton jbtNew = new JButton(new ImageIcon(getClass().getResource(
 			"/image/new.gif")));
 	private JButton jbtOpen = new JButton(new ImageIcon(getClass().getResource(

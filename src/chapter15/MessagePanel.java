@@ -6,6 +6,11 @@ import java.awt.Graphics;
 import javax.swing.JPanel;
 
 public class MessagePanel extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	/** The message to be displayed */
 	private String message = "Welcome to Java";
 

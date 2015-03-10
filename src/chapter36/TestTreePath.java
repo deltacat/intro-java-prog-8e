@@ -6,6 +6,10 @@ import javax.swing.*;
 import javax.swing.tree.*;
 
 public class TestTreePath extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JTree jTree = new JTree();
 	private JTextArea jtaOutput = new JTextArea();
 	private JButton jbtShowPath = new JButton("Show Path");

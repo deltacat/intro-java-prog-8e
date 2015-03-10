@@ -6,6 +6,10 @@ import javax.swing.*;
 import javax.swing.event.*;
 
 public class ColorDialog extends JDialog {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Declare color component values and selected color
 	private int redValue, greenValue, blueValue;
 	private Color color = null;

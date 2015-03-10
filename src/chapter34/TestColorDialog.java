@@ -5,6 +5,10 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class TestColorDialog extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private ColorDialog colorDialog1 = new ColorDialog();
 	private JButton jbtChangeColor = new JButton("Choose color");
 

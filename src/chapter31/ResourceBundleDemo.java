@@ -8,6 +8,10 @@ import java.util.*;
 import java.text.NumberFormat;
 
 public class ResourceBundleDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Combo box for selecting available locales
 	private JComboBox jcboLocale = new JComboBox();
 	private ResourceBundle res = ResourceBundle.getBundle("MyResource");

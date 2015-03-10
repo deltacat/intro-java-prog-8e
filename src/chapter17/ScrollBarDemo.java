@@ -6,6 +6,10 @@ import javax.swing.*;
 import chapter15.MessagePanel;
 
 public class ScrollBarDemo extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Create horizontal and vertical scroll bars
 	private JScrollBar jscbHort = new JScrollBar(JScrollBar.HORIZONTAL);
 	private JScrollBar jscbVert = new JScrollBar(JScrollBar.VERTICAL);

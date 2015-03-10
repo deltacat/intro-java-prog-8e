@@ -5,6 +5,11 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class MoveMessageDemo extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public MoveMessageDemo() {
 		// Create a MovableMessagePanel instance for moving a message
 		MovableMessagePanel p = new MovableMessagePanel("Welcome to Java");
@@ -26,6 +31,10 @@ public class MoveMessageDemo extends JFrame {
 
 	// Inner class: MovableMessagePanel draws a message
 	static class MovableMessagePanel extends JPanel {
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
 		private String message = "Welcome to Java";
 		private int x = 20;
 		private int y = 20;

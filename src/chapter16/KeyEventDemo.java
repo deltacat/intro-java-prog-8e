@@ -5,6 +5,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class KeyEventDemo extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private KeyboardPanel keyboardPanel = new KeyboardPanel();
 
 	/** Initialize UI */
@@ -28,6 +32,10 @@ public class KeyEventDemo extends JFrame {
 
 	// Inner class: KeyboardPanel for receiving key input
 	static class KeyboardPanel extends JPanel {
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
 		private int x = 100;
 		private int y = 100;
 		private char keyChar = 'A'; // Default key

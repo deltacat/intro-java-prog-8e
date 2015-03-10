@@ -3,6 +3,11 @@ package chapter17;
 import javax.swing.*;
 
 public class TestButtonIcons extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public static void main(String[] args) {
 		// Create a frame and set its properties
 		JFrame frame = new TestButtonIcons();

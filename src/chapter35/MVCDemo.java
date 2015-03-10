@@ -5,6 +5,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class MVCDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JButton jbtController = new JButton("Show Controller");
 	private JButton jbtView = new JButton("Show View");
 	private CircleModel model = new CircleModel();

@@ -7,6 +7,11 @@ import javax.swing.*;
 import javax.swing.border.*;
 
 public class BorderDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Declare a label for displaying message
 	private JLabel jLabel1 = new JLabel("Display the border type",
 			JLabel.CENTER);

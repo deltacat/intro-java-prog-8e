@@ -7,6 +7,11 @@ import java.awt.*;
 import java.util.Date;
 
 public class TicTacToeServer extends JFrame implements TicTacToeConstants {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public static void main(String[] args) {
 		TicTacToeServer frame = new TicTacToeServer();
 	}

@@ -6,6 +6,10 @@ import java.awt.BorderLayout;
 import chapter15.MessagePanel;
 
 public class DisplayMessageApp extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String message = "A default message"; // Message to display
 	private int x = 20; // Default x coordinate
 	private int y = 20; // Default y coordinate

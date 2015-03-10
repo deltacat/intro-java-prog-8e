@@ -4,6 +4,10 @@ import java.awt.*;
 import javax.swing.*;
 
 public class TextAreaDemo extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Declare and create a description panel
 	private DescriptionPanel descriptionPanel = new DescriptionPanel();
 

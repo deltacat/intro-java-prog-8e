@@ -1,6 +1,10 @@
 package chapter32;
 
 public class EnrollmentEvent extends java.util.EventObject {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String studentToEnroll;
 	private int enrollmentCap;
 

@@ -7,6 +7,10 @@ import java.text.*;
 import java.awt.*;
 
 public class SpinnerModelEditorDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Create four spinners for date, day, month, and year
 	private JSpinner jspDate = new JSpinner(new SpinnerDateModel());
 	private JSpinner jspDay = new JSpinner(new SpinnerNumberModel(1, 1, 31, 1));

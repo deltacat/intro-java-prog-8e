@@ -4,6 +4,11 @@ import java.awt.*;
 import javax.swing.*;
 
 public class TestFigurePanel extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public TestFigurePanel() {
 		setLayout(new GridLayout(2, 3, 5, 5));
 		add(new FigurePanel(FigurePanel.LINE));

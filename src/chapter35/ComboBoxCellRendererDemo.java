@@ -5,6 +5,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class ComboBoxCellRendererDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private final static int NUMBER_OF_NATIONS = 7;
 	private String[] nations = new String[] { "Denmark", "Germany", "China",
 			"India", "Norway", "UK", "US" };

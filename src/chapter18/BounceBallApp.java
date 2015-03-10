@@ -4,6 +4,11 @@ import java.awt.*;
 import javax.swing.*;
 
 public class BounceBallApp extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public BounceBallApp() {
 		add(new BallControl());
 	}

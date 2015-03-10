@@ -6,6 +6,10 @@ import javax.swing.event.*;
 import chapter15.MessagePanel;
 
 public class SliderDemo extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	// Create horizontal and vertical sliders
 	private JSlider jsldHort = new JSlider(JSlider.HORIZONTAL);
 	private JSlider jsldVert = new JSlider(JSlider.VERTICAL);

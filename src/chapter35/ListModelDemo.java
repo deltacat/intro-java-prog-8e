@@ -5,6 +5,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class ListModelDemo extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private DefaultListModel listModel = new DefaultListModel();
 	private JList jlst = new JList(listModel);
 	private JButton jbtAdd = new JButton("Add new item");

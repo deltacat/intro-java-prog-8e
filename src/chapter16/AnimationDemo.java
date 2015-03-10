@@ -5,6 +5,11 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class AnimationDemo extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public AnimationDemo() {
 		// Create a MovingMessagePanel for displaying a moving message
 		this.setLayout(new GridLayout(2, 1));
@@ -24,6 +29,10 @@ public class AnimationDemo extends JFrame {
 
 	// Inner class: Displaying a moving message
 	static class MovingMessagePanel extends JPanel {
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
 		private String message = "Welcome to Java";
 		private int xCoordinate = 0;
 		private int yCoordinate = 20;

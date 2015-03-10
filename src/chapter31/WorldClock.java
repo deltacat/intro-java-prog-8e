@@ -10,6 +10,10 @@ import java.text.*;
 import chapter15.StillClock;
 
 public class WorldClock extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private TimeZone timeZone = TimeZone.getTimeZone("EST");
 	private Timer timer = new Timer(1000, new TimerListener());
 	private StillClock clock = new StillClock();

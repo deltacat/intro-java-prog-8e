@@ -8,6 +8,11 @@ import java.awt.event.*;
 import chapter17.DescriptionPanel;
 
 public class StoreAndRetrieveImage extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Connection to the database
 	private Connection connection;
 

@@ -7,6 +7,11 @@ import javax.swing.*;
 import chapter15.MessagePanel;
 
 public class ButtonDemo extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	// Create a panel for displaying message
 	protected MessagePanel messagePanel = new MessagePanel("Welcome to Java");
 

@@ -3,6 +3,11 @@ package chapter31;
 import javax.swing.*;
 
 public class WorldClockApp extends JApplet {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	/** Construct the applet */
 	public WorldClockApp() {
 		add(new WorldClockControl());

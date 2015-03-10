@@ -9,6 +9,10 @@ import javax.sql.*;
 import com.sun.rowset.CachedRowSetImpl;
 
 public class TableEditor extends JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JButton jbtFirst = new JButton("First");
 	private JButton jbtNext = new JButton("Next");
 	private JButton jbtPrior = new JButton("Prior");

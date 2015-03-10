@@ -1,6 +1,10 @@
 package chapter27;
 
 public class GraphView extends javax.swing.JPanel {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private Graph<? extends Displayable> graph;
 
 	public GraphView(Graph<? extends Displayable> graph) {

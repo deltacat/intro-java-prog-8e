@@ -5,6 +5,10 @@ import java.awt.event.*;
 import javax.swing.*;
 
 public class TextFieldDemo extends RadioButtonDemo {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private JTextField jtfMessage = new JTextField(10);
 
 	/** Main method */

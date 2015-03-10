@@ -4,6 +4,11 @@ import java.awt.*;
 import javax.swing.*;
 
 public class DisplayClock extends JFrame {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	public DisplayClock() {
 		// Create an analog clock for the current time
 		StillClock clock = new StillClock();
