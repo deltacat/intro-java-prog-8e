@@ -2,6 +2,7 @@ package chapter35;
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
 
 public class ComboBoxCellRendererDemo extends JApplet {
@@ -16,10 +17,10 @@ public class ComboBoxCellRendererDemo extends JApplet {
 	private ImageIcon[] bigIcons = new ImageIcon[NUMBER_OF_NATIONS];
 
 	// Create a combo box model
-	private DefaultComboBoxModel model = new DefaultComboBoxModel();
+	private DefaultComboBoxModel<Object[]> model = new DefaultComboBoxModel<Object[]>();
 
 	// Create a combo box with the specified model
-	private JComboBox jcboCountries = new JComboBox(model);
+	private JComboBox<Object[]> jcboCountries = new JComboBox<Object[]>(model);
 
 	// Create a list cell renderer
 	private MyListCellRenderer renderer = new MyListCellRenderer();

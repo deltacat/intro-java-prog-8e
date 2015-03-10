@@ -2,6 +2,7 @@ package chapter36;
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
 import javax.swing.event.*;
 
@@ -36,7 +37,7 @@ public class TablePropertiesDemo extends JApplet {
 	private JCheckBox jchkShowGrid = new JCheckBox("showGrid", true);
 
 	// Create a combo box
-	private JComboBox jcboAutoResizeMode = new JComboBox(new String[] {
+	private JComboBox<?> jcboAutoResizeMode = new JComboBox<Object>(new String[] {
 			"AUTO_RESIZE_OFF", "AUTO_RESIZE_LAST_COLUMN",
 			"AUTO_RESIZE_SUBSEQUENT_COLUMNS", "AUTO_RESIZE_NEXT_COLUMN",
 			"AUTO_RESIZE_ALL_COLUMNS" });

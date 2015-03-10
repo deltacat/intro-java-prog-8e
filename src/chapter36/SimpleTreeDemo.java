@@ -2,8 +2,10 @@ package chapter36;
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
 import javax.swing.event.*;
+
 import java.util.*;
 
 public class SimpleTreeDemo extends JApplet {
@@ -29,11 +31,11 @@ public class SimpleTreeDemo extends JApplet {
 	private JTree jTree4;
 
 	// Create a combo box for selecting rootVisible
-	private JComboBox jcboRootVisible = new JComboBox(new String[] { "false",
+	private JComboBox<?> jcboRootVisible = new JComboBox<Object>(new String[] { "false",
 			"true" });
 
 	// Create a combo box for selecting showRootHandles
-	private JComboBox jcboShowsRootHandles = new JComboBox(new String[] {
+	private JComboBox<?> jcboShowsRootHandles = new JComboBox<Object>(new String[] {
 			"false", "true" });
 
 	// Create a spinner for selecting row height

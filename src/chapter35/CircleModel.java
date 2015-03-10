@@ -68,12 +68,12 @@ public class CircleModel {
 
 	/** Fire TickEvent */
 	private void processEvent(ActionEvent e) {
-		ArrayList list;
+		ArrayList<ActionListener> list;
 
 		synchronized (this) {
 			if (actionListenerList == null)
 				return;
-			list = (ArrayList) actionListenerList.clone();
+			list = (ArrayList<ActionListener>) actionListenerList.clone();
 		}
 
 		for (int i = 0; i < list.size(); i++) {

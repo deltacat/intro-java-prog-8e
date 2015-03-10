@@ -1,6 +1,6 @@
 package chapter14;
 
-public class Rational extends Number implements Comparable {
+public class Rational extends Number implements Comparable<Object> {
 	/**
 	 * 
 	 */

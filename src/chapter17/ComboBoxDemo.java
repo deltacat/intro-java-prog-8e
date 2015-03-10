@@ -2,6 +2,7 @@ package chapter17;
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
 
 public class ComboBoxDemo extends JFrame {
@@ -31,7 +32,7 @@ public class ComboBoxDemo extends JFrame {
 	private DescriptionPanel descriptionPanel = new DescriptionPanel();
 
 	// Create a combo box for selecting countries
-	private JComboBox jcbo = new JComboBox(flagTitles);
+	private JComboBox<?> jcbo = new JComboBox<Object>(flagTitles);
 
 	public static void main(String[] args) {
 		ComboBoxDemo frame = new ComboBoxDemo();

@@ -1,6 +1,7 @@
 package chapter17;
 
 import java.awt.*;
+
 import javax.swing.*;
 import javax.swing.event.*;
 
@@ -18,7 +19,7 @@ public class ListDemo extends JFrame {
 			"United States of America" };
 
 	// The list for selecting countries
-	private JList jlst = new JList(flagTitles);
+	private JList<?> jlst = new JList<Object>(flagTitles);
 
 	// Declare an ImageIcon array for the national flags of 9 countries
 	private ImageIcon[] imageIcons = { new ImageIcon("image/ca.gif"),

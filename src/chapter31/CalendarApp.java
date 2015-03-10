@@ -2,8 +2,10 @@ package chapter31;
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
 import javax.swing.border.*;
+
 import java.util.*;
 
 public class CalendarApp extends JApplet {
@@ -16,7 +18,7 @@ public class CalendarApp extends JApplet {
 	private CalendarPanel calendarPanel = new CalendarPanel();
 
 	// Combo box for selecting available locales
-	private JComboBox jcboLocale = new JComboBox();
+	private JComboBox<String> jcboLocale = new JComboBox<String>();
 
 	// Declare locales to store available locales
 	private Locale locales[] = Calendar.getAvailableLocales();

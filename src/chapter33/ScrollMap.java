@@ -2,6 +2,7 @@ package chapter33;
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
 import javax.swing.border.*;
 
@@ -21,7 +22,7 @@ public class ScrollMap extends JApplet {
 
 	public ScrollMap() {
 		// Create a combo box for selecting maps
-		JComboBox jcboMap = new JComboBox(new String[] { "Indiana", "Ohio" });
+		JComboBox<?> jcboMap = new JComboBox<Object>(new String[] { "Indiana", "Ohio" });
 
 		// Panel p to hold combo box
 		JPanel p = new JPanel();

@@ -2,9 +2,11 @@ package chapter36;
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.table.*;
+
 import java.util.*;
 
 public class TableEventsDemo extends JApplet {
@@ -63,7 +65,7 @@ public class TableEventsDemo extends JApplet {
 		bookCover.setCellRenderer(new MyImageCellRenderer());
 
 		// Create a combo box for publishers
-		JComboBox jcboPublishers = new JComboBox();
+		JComboBox<String> jcboPublishers = new JComboBox<String>();
 		jcboPublishers.addItem("Prentice Hall");
 		jcboPublishers.addItem("Que Education & Training");
 		jcboPublishers.addItem("McGraw-Hill");

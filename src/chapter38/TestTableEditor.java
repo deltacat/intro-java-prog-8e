@@ -1,20 +1,32 @@
 package chapter38;
 
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-import javax.sql.RowSet;
-import com.sun.rowset.*;
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JApplet;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JSplitPane;
+import javax.swing.JTextField;
+
+import com.sun.rowset.CachedRowSetImpl;
 
 public class TestTableEditor extends JApplet {
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private JComboBox jcboDriver = new JComboBox(new String[] {
+	private JComboBox<?> jcboDriver = new JComboBox<Object>(new String[] {
 			"sun.jdbc.odbc.JdbcOdbcDriver", "com.mysql.jdbc.Driver",
 			"oracle.jdbc.driver.OracleDriver" });
-	private JComboBox jcboURL = new JComboBox(new String[] {
+	private JComboBox<?> jcboURL = new JComboBox<Object>(new String[] {
 			"jdbc:odbc:exampleMDBDataSource",
 			"jdbc:mysql://localhost/javabook",
 			"jdbc:oracle:thin:@liang.armstrong.edu:1521:orcl" });

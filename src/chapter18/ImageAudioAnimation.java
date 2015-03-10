@@ -2,7 +2,9 @@ package chapter18;
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
+
 import java.applet.*;
 
 public class ImageAudioAnimation extends JApplet {
@@ -22,7 +24,7 @@ public class ImageAudioAnimation extends JApplet {
 	private JLabel jlblImageLabel = new JLabel();
 	private JButton jbtResume = new JButton("Resume");
 	private JButton jbtSuspend = new JButton("Suspend");
-	private JComboBox jcboNations = new JComboBox(new Object[] { "Denmark",
+	private JComboBox<?> jcboNations = new JComboBox<Object>(new Object[] { "Denmark",
 			"Germany", "China", "India", "Norway", "UK", "US" });
 
 	public ImageAudioAnimation() {

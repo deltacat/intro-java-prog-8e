@@ -2,6 +2,7 @@ package chapter35;
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
 
 public class ListModelDemo extends JApplet {
@@ -9,8 +10,8 @@ public class ListModelDemo extends JApplet {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private DefaultListModel listModel = new DefaultListModel();
-	private JList jlst = new JList(listModel);
+	private DefaultListModel<String> listModel = new DefaultListModel<String>();
+	private JList<String> jlst = new JList<String>(listModel);
 	private JButton jbtAdd = new JButton("Add new item");
 	private JButton jbtRemove = new JButton("Remove selected item");
 

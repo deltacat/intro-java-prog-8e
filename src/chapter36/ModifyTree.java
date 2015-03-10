@@ -2,6 +2,7 @@ package chapter36;
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
 import javax.swing.tree.*;
 
@@ -12,7 +13,7 @@ public class ModifyTree extends JApplet {
 	private static final long serialVersionUID = 1L;
 
 	// Create a combo box for choosing selection modes
-	private JComboBox jcboSelectionMode = new JComboBox(new String[] {
+	private JComboBox<?> jcboSelectionMode = new JComboBox<Object>(new String[] {
 			"CONTIGUOUS_TREE_SELECTION", "DISCONTIGUOUS_TREE_SELECTION",
 			"SINGLE_TREE_SELECTION" });
 

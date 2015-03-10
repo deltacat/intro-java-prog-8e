@@ -59,7 +59,7 @@ public class TreeNodeDemo extends JApplet {
 		String breadthFirstSearchResult = "";
 
 		// Breadth-first traversal
-		Enumeration bf = root.breadthFirstEnumeration();
+		Enumeration<?> bf = root.breadthFirstEnumeration();
 		while (bf.hasMoreElements())
 			breadthFirstSearchResult += bf.nextElement().toString() + " ";
 		jtaMessage.append("\nBreath-first traversal from the root is "

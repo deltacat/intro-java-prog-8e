@@ -2,6 +2,7 @@ package chapter35;
 
 import java.awt.event.*;
 import java.awt.*;
+
 import javax.swing.*;
 
 public class CircleController extends JPanel {
@@ -11,7 +12,7 @@ public class CircleController extends JPanel {
 	private static final long serialVersionUID = 1L;
 	private CircleModel model;
 	private JTextField jtfRadius = new JTextField();
-	private JComboBox jcboFilled = new JComboBox(new Boolean[] {
+	private JComboBox<?> jcboFilled = new JComboBox<Object>(new Boolean[] {
 			new Boolean(false), new Boolean(true) });
 
 	/** Creates new form CircleController */

@@ -1,8 +1,10 @@
 package chapter36;
 
 import java.awt.*;
+
 import javax.swing.*;
 import javax.swing.table.*;
+
 import java.util.*;
 
 public class CustomTableCellRendererEditorDemo extends JApplet {
@@ -49,7 +51,7 @@ public class CustomTableCellRendererEditorDemo extends JApplet {
 		bookCover.setCellRenderer(new MyImageCellRenderer());
 
 		// Create a combo box for publishers
-		JComboBox jcboPublishers = new JComboBox();
+		JComboBox<String> jcboPublishers = new JComboBox<String>();
 		jcboPublishers.addItem("Prentice Hall");
 		jcboPublishers.addItem("Que Education & Training");
 		jcboPublishers.addItem("McGraw-Hill");

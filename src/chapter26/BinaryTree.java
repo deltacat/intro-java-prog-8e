@@ -126,7 +126,7 @@ public class BinaryTree<E extends Comparable<E>> extends AbstractTree<E> {
 	}
 
 	/** Returns the root of the tree */
-	public TreeNode getRoot() {
+	public TreeNode<E> getRoot() {
 		return root;
 	}
 

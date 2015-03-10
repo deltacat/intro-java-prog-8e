@@ -63,12 +63,12 @@ public class CourseWithEnrollmentEvent {
 
 	/** Fire EnrollmentEvent */
 	private void processEvent(EnrollmentEvent e) {
-		ArrayList list;
+		ArrayList<EnrollmentListener> list;
 
 		synchronized (this) {
 			if (enrollmentListenerList == null)
 				return;
-			list = (ArrayList) enrollmentListenerList.clone();
+			list = (ArrayList<EnrollmentListener>) enrollmentListenerList.clone();
 		}
 
 		for (int i = 0; i < list.size(); i++) {

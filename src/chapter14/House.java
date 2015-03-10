@@ -1,6 +1,6 @@
 package chapter14;
 
-public class House implements Cloneable, Comparable {
+public class House implements Cloneable, Comparable<Object> {
 	private int id;
 	private double area;
 	private java.util.Date whenBuilt;

@@ -35,7 +35,7 @@ public class GenericSort {
 
 	/** Sort an array of comparable objects */
 	public static void sort(Comparable[] list) {
-		Comparable currentMin;
+		Comparable<Comparable<Comparable>> currentMin;
 		int currentMinIndex;
 
 		for (int i = 0; i < list.length - 1; i++) {

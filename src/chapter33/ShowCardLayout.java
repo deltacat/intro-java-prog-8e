@@ -2,6 +2,7 @@ package chapter33;
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
 
 public class ShowCardLayout extends JApplet {
@@ -12,7 +13,7 @@ public class ShowCardLayout extends JApplet {
 	private CardLayout cardLayout = new CardLayout(20, 10);
 	private JPanel cardPanel = new JPanel(cardLayout);
 	private JButton jbtFirst, jbtNext, jbtPrevious, jbtLast;
-	private JComboBox jcboImage;
+	private JComboBox<String> jcboImage;
 	private final int NUM_OF_FLAGS = 6;
 
 	public ShowCardLayout() {
@@ -31,7 +32,7 @@ public class ShowCardLayout extends JApplet {
 		p.add(jbtPrevious = new JButton("Previous"));
 		p.add(jbtLast = new JButton("Last"));
 		p.add(new JLabel("Image"));
-		p.add(jcboImage = new JComboBox());
+		p.add(jcboImage = new JComboBox<String>());
 
 		// Initialize combo box items
 		for (int i = 1; i <= NUM_OF_FLAGS; i++)

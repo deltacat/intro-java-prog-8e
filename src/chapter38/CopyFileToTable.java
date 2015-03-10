@@ -2,6 +2,7 @@ package chapter38;
 
 import javax.swing.*;
 import javax.swing.border.*;
+
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
@@ -18,10 +19,10 @@ public class CopyFileToTable extends JFrame {
 	private JTextArea jtaFile = new JTextArea();
 
 	// JDBC and table info
-	private JComboBox jcboDriver = new JComboBox(new String[] {
+	private JComboBox<?> jcboDriver = new JComboBox<Object>(new String[] {
 			"com.mysql.jdbc.Driver", "sun.jdbc.odbc.JdbcOdbcDriver",
 			"oracle.jdbc.driver.OracleDriver" });
-	private JComboBox jcboURL = new JComboBox(new String[] {
+	private JComboBox<?> jcboURL = new JComboBox<Object>(new String[] {
 			"jdbc:mysql://localhost/test", "jdbc:odbc:exampleMDBDataSource",
 			"jdbc:oracle:thin:@liang.armstrong.edu:1521:orcl" });
 	private JTextField jtfUsername = new JTextField();

@@ -1,11 +1,30 @@
 package chapter38;
 
-import java.awt.*;
-import java.awt.event.*;
-import javax.swing.*;
-import javax.swing.border.*;
-import java.sql.*;
-import java.util.*;
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.GridLayout;
+import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import javax.swing.JApplet;
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
+import javax.swing.border.Border;
+import javax.swing.border.TitledBorder;
 
 public class SQLClient extends JApplet {
 	/**
@@ -28,11 +47,11 @@ public class SQLClient extends JApplet {
 	// JDBC info for a database connection
 	JTextField jtfUsername = new JTextField();
 	JPasswordField jpfPassword = new JPasswordField();
-	JComboBox jcboURL = new JComboBox(new String[] {
+	JComboBox<?> jcboURL = new JComboBox<Object>(new String[] {
 			"jdbc:mysql://liang.armstrong.edu/javabook",
 			"jdbc:odbc:exampleMDBDataSource",
 			"jdbc:oracle:thin:@liang.armstrong.edu:1521:orcl" });
-	JComboBox jcboDriver = new JComboBox(new String[] {
+	JComboBox<?> jcboDriver = new JComboBox<Object>(new String[] {
 			"com.mysql.jdbc.Driver", "sun.jdbc.odbc.JdbcOdbcDriver",
 			"oracle.jdbc.driver.OracleDriver" });
 

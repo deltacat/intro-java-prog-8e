@@ -2,8 +2,10 @@ package chapter36;
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
 import javax.swing.table.*;
+
 import java.io.*;
 import java.util.Vector;
 
@@ -42,7 +44,7 @@ public class ModifyTable extends JApplet {
 	private JButton jbtRestore = new JButton("Restore");
 
 	// Create a combo box for selection modes
-	private JComboBox jcboSelectionMode = new JComboBox(new String[] {
+	private JComboBox<?> jcboSelectionMode = new JComboBox<Object>(new String[] {
 			"SINGLE_SELECTION", "SINGLE_INTERVAL_SELECTION",
 			"MULTIPLE_INTERVAL_SELECTION" });
 
@@ -152,8 +154,8 @@ public class ModifyTable extends JApplet {
 				try {
 					ObjectInputStream in = new ObjectInputStream(
 							new FileInputStream("tablemodel.dat"));
-					Vector rowData = (Vector) in.readObject();
-					Vector columnNames = (Vector) in.readObject();
+					Vector<?> rowData = (Vector<?>) in.readObject();
+					Vector<?> columnNames = (Vector<?>) in.readObject();
 					tableModel.setDataVector(rowData, columnNames);
 					in.close();
 				} catch (Exception ex) {
@@ -191,7 +193,7 @@ public class ModifyTable extends JApplet {
 		});
 	}
 
-	private Vector getColumnNames() {
+	private Vector<String> getColumnNames() {
 		Vector<String> columnNames = new Vector<String>();
 
 		for (int i = 0; i < jTable1.getColumnCount(); i++)

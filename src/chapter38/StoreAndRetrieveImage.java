@@ -2,9 +2,12 @@ package chapter38;
 
 import java.sql.*;
 import java.io.*;
+
 import javax.swing.*;
+
 import java.awt.*;
 import java.awt.event.*;
+
 import chapter17.DescriptionPanel;
 
 public class StoreAndRetrieveImage extends JApplet {
@@ -23,7 +26,7 @@ public class StoreAndRetrieveImage extends JApplet {
 	private PreparedStatement pstmt = null;
 	private DescriptionPanel descriptionPanel1 = new DescriptionPanel();
 
-	private JComboBox jcboCountry = new JComboBox();
+	private JComboBox<String> jcboCountry = new JComboBox<String>();
 
 	/** Creates new form StoreAndRetrieveImage */
 	public StoreAndRetrieveImage() {

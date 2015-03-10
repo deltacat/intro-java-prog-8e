@@ -2,6 +2,7 @@ package chapter36;
 
 import javax.swing.*;
 import javax.swing.table.*;
+
 import java.util.*;
 
 public class MyTableModel extends DefaultTableModel {
@@ -19,13 +20,13 @@ public class MyTableModel extends DefaultTableModel {
 	}
 
 	/** Override this method to return a class for the column */
-	public Class getColumnClass(int column) {
+	public Class<? extends Object> getColumnClass(int column) {
 		return getValueAt(0, column).getClass();
 	}
 
 	/** Override this method to return true if cell is editable */
 	public boolean isCellEditable(int row, int column) {
-		Class columnClass = getColumnClass(column);
+		Class<? extends Object> columnClass = getColumnClass(column);
 		return columnClass != ImageIcon.class && columnClass != Date.class;
 	}
 }

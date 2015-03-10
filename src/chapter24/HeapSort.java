@@ -2,7 +2,7 @@ package chapter24;
 
 public class HeapSort {
 	/** Heap sort method */
-	public static <E extends Comparable> void heapSort(E[] list) {
+	public static <E extends Comparable<?>> void heapSort(E[] list) {
 		// Create a Heap of integers
 		Heap<E> heap = new Heap<E>();
 

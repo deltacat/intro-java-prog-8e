@@ -1,5 +1,7 @@
 package chapter25;
 
+import chapter25.TestPriorityQueue.Patient;
+
 public class TestPriorityQueue {
 	public static void main(String[] args) {
 		Patient patient1 = new Patient("John", 2);
@@ -7,7 +9,7 @@ public class TestPriorityQueue {
 		Patient patient3 = new Patient("Tim", 5);
 		Patient patient4 = new Patient("Cindy", 7);
 
-		MyPriorityQueue priorityQueue = new MyPriorityQueue();
+		MyPriorityQueue<Patient> priorityQueue = new MyPriorityQueue<Patient>();
 		priorityQueue.enqueue(patient1);
 		priorityQueue.enqueue(patient2);
 		priorityQueue.enqueue(patient3);
@@ -17,7 +19,7 @@ public class TestPriorityQueue {
 			System.out.print(priorityQueue.dequeue() + " ");
 	}
 
-	static class Patient implements Comparable {
+	static class Patient implements Comparable<Object> {
 		private String name;
 		private int priority;
 

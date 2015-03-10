@@ -2,8 +2,10 @@ package chapter31;
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
 import javax.swing.border.*;
+
 import java.util.*;
 import java.text.NumberFormat;
 
@@ -13,7 +15,7 @@ public class ResourceBundleDemo extends JApplet {
 	 */
 	private static final long serialVersionUID = 1L;
 	// Combo box for selecting available locales
-	private JComboBox jcboLocale = new JComboBox();
+	private JComboBox<String> jcboLocale = new JComboBox<String>();
 	private ResourceBundle res = ResourceBundle.getBundle("MyResource");
 
 	// Create labels

@@ -2,6 +2,7 @@ package chapter35;
 
 import java.awt.*;
 import java.awt.event.*;
+
 import javax.swing.*;
 import javax.swing.event.*;
 
@@ -10,13 +11,13 @@ public class ListPropertiesDemo extends JApplet {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private JList jlst = new JList(new String[] { "Item1", "Item2", "Item3",
+	private JList<?> jlst = new JList<Object>(new String[] { "Item1", "Item2", "Item3",
 			"Item4", "Item5", "Item6" });
 	private JSpinner jspVisibleRowCount = new JSpinner(new SpinnerNumberModel(
 			8, -1, 20, 1));
-	private JComboBox jcboLayoutOrientation = new JComboBox(new String[] {
+	private JComboBox<?> jcboLayoutOrientation = new JComboBox<Object>(new String[] {
 			"VERTICAL (0)", "VERTICAL_WRAP (1)", "HORIZONTAL_WRAP (2)" });
-	private JComboBox jcboSelectionMode = new JComboBox(new String[] {
+	private JComboBox<?> jcboSelectionMode = new JComboBox<Object>(new String[] {
 			"SINGLE_SELECTION (0)", "SINGLE_INTERVAL_SELECTION (1)",
 			"MULTIPLE_INTERVAL_SELECTION (2)" });
 	private JLabel jlblStatus = new JLabel();
