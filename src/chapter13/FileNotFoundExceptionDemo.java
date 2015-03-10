@@ -4,6 +4,7 @@ import java.util.Scanner;
 import java.io.*;
 
 public class FileNotFoundExceptionDemo {
+	@SuppressWarnings({ "resource", "unused" })
 	public static void main(String[] args) {
 		Scanner inputFromConsole = new Scanner(System.in);
 		// Prompt the user to enter a file name
